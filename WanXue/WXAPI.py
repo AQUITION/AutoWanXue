@@ -6,7 +6,7 @@ GET_ANSWER_URL = 'https://jluzh.wanxue.cn/sls/jwExam/examAnalysis'  # 获取答�
 
 USER_AGENT_FIREFOX = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'  # User_Agent
 
-COOKIE_PATH = 'C:\\Users\\Adam\\Documents\\AutoWanXue\\cookie'  # cookie 存放目录
+COOKIE_PATH = '.\\cookie'  # cookie 存放目录
 
 
 def doCourse(data, start_time, courseId, em, cookie):

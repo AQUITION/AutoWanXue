@@ -1,7 +1,7 @@
 import time
 import WanXue.WXAPI as WXAPI
 
-FILE_PATH = 'C:\\Users\\Adam\\Documents\\AutoWanXue\\AnswerPages\\'  # 爬取文件存储路径
+FILE_PATH = '.\\AnswerPages\\'  # 爬取文件存储路径
 
 COURSE_ID = 1012
 

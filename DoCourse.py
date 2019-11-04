@@ -25,3 +25,4 @@ if __name__ == '__main__':
         print(req_ctx)  # 显示参数内容
         WXAPI.doCourse(req_ctx, time_stamp, COURSE_ID, '2_' + str(em['em_id']), cookie)  # 发送请求
         time.sleep(0.5)  # 休息0.5秒
+    print('Finished!')

@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import glob
 import re
 
-files_path = 'C:\\Users\\Adam\\Documents\\AutoWanXue\\AnswerPagesHTML\\*'
+files_path = '.\\AnswerPagesHTML\\*'
 
 # def
 
