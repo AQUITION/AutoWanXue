@@ -20,8 +20,8 @@ if __name__ == '__main__':
     cookie = WXAPI.fileGetCookie()
 
     for em_id in em_ids:
-        ReqCtx = WXUtil.gen_req_ctx(first_choice_id, COURSE_ID, time_stamp + random.randint(1, 10) * 1000,
-                                    '2_' + str(em_id))  # 生成请求完成课程的请求参数
+        ReqCtx = WXUtil.gen_random_option(first_choice_id, COURSE_ID, time_stamp + random.randint(1, 10) * 1000,
+                                          '2_' + str(em_id))  # 生成请求完成课程的请求参数
         print(ReqCtx)  # 显示请求参数
         print(WXAPI.doCourse(ReqCtx, time_stamp, COURSE_ID, '2_' + str(em_id), cookie))  # 请求完成课程并显示Resp
         first_choice_id = first_choice_id + 10  # 题号自增10
