@@ -1,5 +1,23 @@
 # AutoWanXue
 
+## 使用方法
+
+### 第一步，设置cookie
+
+登录后复制一份学习页面的cookie。
+
+![Kzaf29.png](https://s2.ax1x.com/2019/11/04/Kzaf29.png)
+
+之后在项目的根目录放一个文件名为**cookie**的文件，里面存入你复制的cookie。
+
+![KzdWo8.jpg](https://s2.ax1x.com/2019/11/04/KzdWo8.jpg)
+
+### 第二步，运行脚本
+
+在这之前，你得保证当前系统已经正确的安装了Python3.x环境，详情可以上网找找教程
+
+打开控制台，运行`python DoCourse.py`即可开始刷课。
+
 ## 文件排布
 
 | FileName   | Usage                        |
