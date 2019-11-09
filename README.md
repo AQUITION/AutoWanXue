@@ -22,7 +22,13 @@
 
 | FileName   | Usage                        |
 |------------|------------------------------|
-| GenJSON.py | 手动生成格式化的JSON答案存档 |
+|DoCourse.py|通过放置在根目录的json答案自动发送答题请求|
+| GenJSON.py | 手动生成格式化的json答案存档 |
+|GetAllAnswer.py|爬取答案|
+|ParseHTMLToJSON.py|将爬取到的答案HTML文件解析为json|
+|RandomDoCourse.py|随机答题|
+
+因为答题后端不限制提交次数，新提交会覆盖旧提交。所以首先发送随机的答题请求，然后爬取答案页面，然后解析HTML页面中的答案到json格式，然后通过遍历json内数据发送答题请求，覆盖之前的答案。
 
 ## 网络请求
 
